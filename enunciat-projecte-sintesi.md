@@ -178,6 +178,41 @@ Cada parella haurà de fer una demostració de 3–5 minuts on mostri:
 - No es poden eliminar conflictes sense documentar-los.
 - No es pot modificar directament `main` sense branques.
 
+# 6. AMPLIACIÓ 
+## Desplegament al núvol i CI/CD
+
+Aquesta ampliació està pensada per a equips que hagin completat correctament el projecte base (Git + conflictes + Docker).
+
+### 1. Integració Contínua (CI)
+
+Cal configurar un workflow de GitHub Actions que:
+
+- S’executi en cada `push` a `main`.
+- Instal·li les dependències del projecte.
+- Executi el build de producció (`npm run build`, `composer install` o equivalent).
+- Verifiqui que la imatge Docker es construeix correctament (`docker build`).
+
+Requisits mínims:
+
+- Fitxer `.github/workflows/ci.yml` versionat.
+- Pipeline executant-se correctament (evidència amb captura o enllaç).
+
+### 2. Desplegament Continu (CD bàsic)
+
+Opcions vàlides:
+
+- Desplegament del frontend React a Vercel o Netlify.
+- Desplegament a Render o Railway.
+- Desplegament en un servidor amb Docker instal·lat.
+
+Requisits mínims:
+
+- Configurar correctament les variables d’entorn al panell del proveïdor.
+- Documentar els passos realitzats.
+- Incloure l’enllaç públic a l’aplicació desplegada.
+
+Aquesta ampliació pot servir per obtenir qualificació d’excel·lència.
+
 
 ---
 

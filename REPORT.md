@@ -87,7 +87,7 @@ Descriviu els serveis definits a docker-compose.yml.
 
 Expliqueu quines variables són necessàries i per què no es versiona el .env.
 
-### 6.3 Persistència (si escau)
+### 6.3 Persistència (si s'escau)
 
 Expliqueu l’ús de volums.
 
@@ -97,19 +97,14 @@ Incloeu errors reals i com s’han resolt.
 
 ## 7. Prova de desplegament des de zero
 
-Expliqueu els passos exactes que hauria de seguir una persona externa:
-
-Clonar repositori
-
-Executar comanda
-
-Accedir a l’aplicació
+  Expliqueu els passos exactes que hauria de seguir una persona externa:
+- Clonar repositori
+- Executar comanda
+- Accedir a l’aplicació  
 
 Indiqueu també:
-
-Ports utilitzats
-
-Credencials de prova (si n’hi ha)
+- Ports utilitzats
+- Credencials de prova (si n’hi ha)
 
 ## 8. Repartiment de tasques
 
@@ -118,19 +113,14 @@ Descriviu què ha fet cada membre de l’equip.
 ## 9. Temps invertit
 
 Indiqueu aproximadament:
-
-Temps dedicat a Git
-
-Temps dedicat a Docker
-
-Temps dedicat a documentació
+- Temps dedicat a Git
+- Temps dedicat a Docker
+- Temps dedicat a documentació
 
 ## 10. Reflexió final
 
 Responeu breument:
 
-Quina ha estat la part més complexa?
-
-Què faríeu diferent en un projecte real?
-
-Heu entès realment com funcionen els conflictes i Docker?
+- Quina ha estat la part més complexa?
+- Què faríeu diferent en un projecte real?
+- Heu entès realment com funcionen els conflictes i Docker?
