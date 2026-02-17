@@ -59,9 +59,9 @@ Mostreu el fragment amb:
 
 Expliqueu:
 
-Quina decisió s’ha pres
-Per què s’ha escollit aquesta opció
-Com s’ha validat que funciona
+- Quina decisió s’ha pres
+- Per què s’ha escollit aquesta opció
+- Com s’ha validat que funciona
 
 ### 4.5 Reflexió
 
